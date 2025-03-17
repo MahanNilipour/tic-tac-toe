@@ -1,0 +1,36 @@
+{
+  "name": "react-useState",
+  "version": "1.0.0",
+  "main": "index.js",
+  "homepage": "https://MahanNilipour.github.io/tic-tac-toe",
+  "repository": "https://github.com/AndrewDiles/react-useState-tic-tac-toe.git",
+  "author": "Andrew Diles <a_diles@hotmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "gh-pages": "^6.3.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-router-dom": "^7.3.0",
+    "react-scripts": "^5.0.1",
+    "styled-components": "^6.1.15"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "start-mac": "PORT=3004 react-scripts start",
+    "start-windows": "set PORT=3004 && react-scripts start",
+    "predeploy": "react-scripts build",
+    "deploy": "gh-pages -d build"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
